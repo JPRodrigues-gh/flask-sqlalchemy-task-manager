@@ -5,6 +5,18 @@ Welcome JPRodrigues-gh,
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Install the following to run app
+pip3 install flask flask_sqlalchemy
+pip3 install psycopg2-binary
+
+## env.py
+""" setup environment variables """
+import os
+
+os.environ.setdefault("SECRET_KEY", "secret_flash_key")
+IP = "0.0.0.0"
+PORT = "5000"
+DEBUG = True
 
 ## Gitpod Reminders
 
